@@ -1,25 +1,25 @@
 package edu.handong.csee.java.lab13.prob3;
 
-public class Rectangle extends Shape {
-	private double lenth;
-	private double width;
-	public Rectangle(double lenth,double width) {
-		this.lenth = lenth;
-		this.width = width;
+public class Rectangle extends Shape { //announce Rectangle class that inherits Shape class
+	private double length; //private double type variable length
+	private double width; // private double type variable width
+	public Rectangle(double length,double width) { //constructor 
+		this.length = length; //this class's length = length
+		this.width = width; //this class's width = width
 	}
-	public double area(){
-		return lenth*width;
+	public double area(){ // area method
+		return length*width; //return length*width
 	}
-	public double perimeter(){
-		return (lenth+width)*2;
+	public double perimeter(){ //perimeter method
+		return (length+width)*2; //return (length+width)*2
 	}
-	public double getLenth() {
-		return lenth;
+	public double getLength() { //getLength method
+		return length; //return length
 	}
-	public double getWidth() {
-		return width;
+	public double getWidth() { //getWidth method
+		return width; //return width
 	}
-	
-	
+
+
 }
 
